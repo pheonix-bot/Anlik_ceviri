@@ -1,0 +1,46 @@
+=================================================================
+ANLIK EKRAN ÇEVİRİ (ANDROID) - TAM PROJE PAKETİ
+=================================================================
+
+Bu ZIP dosyası, telefon ekranındaki İngilizce kelimeleri/cümleleri
+anlık yakalayıp (Google ML Kit OCR) Google Translate üzerinden
+Türkçeye çeviren ve ekranın altında sürüklenebilir canlı altyazı
+olarak gösteren tam Android uygulamasının tüm kaynak kodlarını içerir.
+
+NASIL KURULUR? (2 FARKLI YOL)
+
+-----------------------------------------------------------------
+YOL 1: ANDROID STUDIO İLE TELEFONA DİREKT KURULUM (EN HIZLI)
+-----------------------------------------------------------------
+1. Bu ZIP dosyasını bir klasöre çıkartın.
+2. Bilgisayarınızda Android Studio'yu açın -> "Open" deyin ve
+   çıkarttığınız "AnlikEkranCeviri" klasörünü seçin.
+3. Gradle bağımlılıklarının inmesini bekleyin (1-2 dakika).
+4. Telefonunuzda "Geliştirici Seçenekleri -> USB Hata Ayıklama"yı açıp
+   USB kablosuyla bilgisayara bağlayın.
+5. Üstteki yeşil "Run (▶)" butonuna basın. Uygulama otomatik derlenip
+   telefonunuza kurulacaktır.
+   (İsterseniz Build -> Build Bundle(s) / APK(s) -> Build APK(s)
+   diyerek APK dosyasını alıp telefonunuza atabilirsiniz.)
+
+-----------------------------------------------------------------
+YOL 2: HİÇ PROGRAM KURMADAN GITHUB ÜZERİNDEN APK ALMA
+-----------------------------------------------------------------
+1. GitHub'da ücretsiz yeni bir repo açın ve bu klasördeki dosyaları
+   yükleyin (.github/workflows/build-apk.yml dosyası dahildir).
+2. GitHub'da "Actions" sekmesine girin.
+3. Otomatik derleme bittiğinde "AnlikEkranCeviri-APK" dosyasına
+   tıklayıp app-debug.apk dosyasını telefonunuza indirip kurun.
+
+-----------------------------------------------------------------
+TELEFONDA KULLANIM:
+-----------------------------------------------------------------
+1. "Anlık Ekran Çeviri" uygulamasını açın.
+2. "CANLI ÇEVİRİYİ BAŞLAT" butonuna basın.
+3. İlk açılışta "Diğer uygulamaların üzerinde göster" iznini açın.
+4. "Ekran kaydı / yayınlama" uyarısında "Şimdi başlat" deyin.
+5. Uygulama otomatik olarak alta iner ve ekranın alt kısmında
+   yarı saydam canlı Türkçe altyazı kutusu belirir.
+6. Altyazı kutusunu parmağınızla yukarı/aşağı sürükleyebilir,
+   sağındaki (✕) tuşuyla istediğiniz an kapatabilirsiniz.
+=================================================================
